@@ -30,18 +30,19 @@ p {
 
 .container {
   display: flex;
-  background-color: #D9D9D9;
+  background-color: #D2D2D2;
   color: #4C4D4D;
 }
 
-.image {
-  width: 50%;
-  height: 100vh;
+ .image {
+   width: 600px;
+   zoom: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden
+  overflow: visible;
 }
+
 .image img {
   flex-shrink: 0;
   min-width: 100%;
