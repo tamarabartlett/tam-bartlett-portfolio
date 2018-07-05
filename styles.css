@@ -8,10 +8,12 @@ body, html {
 body {
   height: 100vh;
   width: 100vw;
+  color: #4C4D4D;
 }
 
 h1 {
   font-family: 'Roboto', sans-serif;
+  font-size: 3em;
   font-weight: bold;
 }
 
@@ -31,16 +33,15 @@ p {
 .container {
   display: flex;
   background-color: #D2D2D2;
-  color: #4C4D4D;
 }
 
  .image {
    width: 600px;
    zoom: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: visible;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: visible;
 }
 
 .image img {
@@ -50,11 +51,25 @@ p {
 }
 
 .bio {
-  margin: 5em;
+  margin: 10em;
   width: 50%;
+}
+
+.bio-text {
+  margin-bottom: 3em;
 }
 
 .flex-item {
   display: inline;
   align-self: center;
+}
+
+.social-media {
+  display: inline;
+}
+
+.social-media img {
+  height: 2em;
+  width: 2em;
+  margin-right: 3em;
 }
