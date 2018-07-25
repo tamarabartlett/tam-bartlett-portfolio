@@ -11,17 +11,6 @@ body {
   color: #4C4D4D;
 }
 
-h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 3em;
-  font-weight: bold;
-}
-
-h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-}
-
 li {
   font-family: 'Raleway', sans-serif;
 }
@@ -30,38 +19,29 @@ p {
   font-family: 'Raleway', sans-serif;
 }
 
-.container {
-  display: flex;
+.wrapper {
+  display: grid;
+  grid-template-columns: 33vw 33vw 33vw;
+  grid-template-rows: 8vh 46vh 46vh;
+  grid-gap: 10px;
+  color: #444;
   background-color: #D2D2D2;
 }
 
- .image {
-   width: 600px;
-   zoom: 70%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   overflow: visible;
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 150%;
 }
 
-.image img {
-  flex-shrink: 0;
-  min-width: 100%;
-  min-height: 100%
-}
-
-.bio {
-  margin: 10em;
-  width: 50%;
-}
-
-.bio-text {
-  margin-bottom: 3em;
-}
-
-.flex-item {
-  display: inline;
-  align-self: center;
+.header {
+  grid-area: 1 / 1 / 2 / 4;
+  font-family: 'Permanent Marker', cursive;
+  background: linear-gradient(45deg, #0ad3ff, #02a9ea);
+  font-size: 10px;
+  display: grid;
+  grid-template-columns: 75vw 25vw;
 }
 
 .social-media {
