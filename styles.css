@@ -35,6 +35,19 @@ p {
   font-size: 150%;
 }
 
+.bounding-box {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-color: #D2D2D2;
+}
+
+.me-with-parachute-img {
+  background-image: url('./images/skydivingProfPic.jpg');
+}
+
 .header {
   grid-area: 1 / 1 / 2 / 4;
   font-family: 'Permanent Marker', cursive;
